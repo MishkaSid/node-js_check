@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Component</title>
+  <style>
+    /* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6ecf7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #e6ecf7;
+  padding: 20px;
+}
+
+header h1 {
+  color: #1e3a8a;
+  margin: 0;
+  font-size: 24px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: calc(100vh - 120px); /* Header and footer height adjustment */
+}
+
+.book-content img {
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.book-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #1e3a8a;
+}
+
+.book-content p {
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #e6ecf7;
+  font-size: 14px;
+  color: #999;
+  position: relative;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Book Component By Function</h1>
+  </header>
+  <main>
+    <div class="book-content">
+      <img src="https://learning.oreilly.com/library/cover/9781491905197/250w/" alt="Scope & Closures JS">
+      <h2>By Kyle Simpson</h2>
+      <p>Parts of the language that many JavaScript programmers simply avoid.</p>
+    </div>
+  </main>
+  <footer>© 2021 Tania</footer>
+</body>
+</html>
